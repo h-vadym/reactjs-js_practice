@@ -12,5 +12,17 @@ export const ROUTES = [
     path: '/intersection-observer',
     component: lazy(() => import('../pages/intersection-observer')),
     menuLabel: 'Intersection Observer'
+  },
+  {
+    id: 3,
+    path: '/storage-in-tabs',
+    component: lazy(() => import('../pages/storage-in-tabs')),
+    menuLabel: 'Storage event in tabs'
+  },
+  {
+    id: 3,
+    path: '/indexeddb-todo',
+    component: lazy(() => import('../pages/indexeddb-todo')),
+    menuLabel: 'Todo (IndexedDB)'
   }
 ];
