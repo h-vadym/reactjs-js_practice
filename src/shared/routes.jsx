@@ -24,5 +24,11 @@ export const ROUTES = [
     path: '/indexeddb-todo',
     component: lazy(() => import('../pages/indexeddb-todo')),
     menuLabel: 'Todo (IndexedDB)'
+  },
+  {
+    id: 4,
+    path: '/memory-leak',
+    component: lazy(() => import('../pages/memory-leak')),
+    menuLabel: 'Memory leaks'
   }
 ];

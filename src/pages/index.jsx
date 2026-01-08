@@ -29,7 +29,7 @@ const App = () => {
         position="fixed"
         left="0"
         background="white"
-        p="10px 5px"
+        p="10px 12px"
         cursor="pointer"
         boxShadow="2px 0px 10px 0px rgba(0,0,0,0.2)"
         borderRight="1px solid"
